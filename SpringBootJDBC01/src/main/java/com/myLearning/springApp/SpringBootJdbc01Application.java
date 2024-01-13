@@ -19,14 +19,15 @@ public class SpringBootJdbc01Application {
 		StudentDaoImplementation student = context.getBean(StudentDaoImplementation.class);
 
 		List<Student> list = student.getTheSudent();
-		//type 1 
+		
+//		type 1 
 //		Iterator<Student> itr = list.iterator();
 //
 //		while (itr.hasNext()) {
 //			System.out.println(itr.next() + " ");
 //		}
 //		
-		//type 2 
+//		type 2 
 //		for(Student l : list)
 //		{
 //			System.out.println(l+" ");
